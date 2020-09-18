@@ -23,7 +23,7 @@ The main reason I’m on this courses is that I want to improve my Web Developme
 
 As an example, I can give the text of the stored procedure from DB Informix: 
 
-```CREATE PROCEDURE upd(vold_list integer, vnew_list integer)
+```CREATE PROCEDURE update_supplier(vold_list integer, vnew_list integer)
 
 returning varchar(250);
 define vorder_id integer;
@@ -61,6 +61,7 @@ end foreach;
 end procedure;
 }
 ```
+
 ###Education
 Higher education
 
