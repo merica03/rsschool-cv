@@ -63,3 +63,7 @@ end procedure;
 ```
 ###Education
 Higher education
+
+*2005 - 2009*
+**Belarusian State University of Informatics and Radioelectronics**
+The Faculty of Computer Systems and Networks
