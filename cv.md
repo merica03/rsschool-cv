@@ -1,7 +1,7 @@
-##Svetlana Rogaloyva
-:telephone_number: +375296386944
+## Svetlana Rogaloyva
+phone_number: +375296386944
 
-:email: sv.rogaloyva@gmail.com
+email: sv.rogaloyva@gmail.com
 
 ###**Objective**
 My main expectations and goals:
