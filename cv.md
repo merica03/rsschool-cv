@@ -1,30 +1,28 @@
-## Svetlana Rogaloyva
+## **Svetlana Rogaloyva**
 phone_number: +375296386944
-
 email: sv.rogaloyva@gmail.com
 
-###**Objective**
-My main expectations and goals:
-
-* Improving of knowledge and get new skills of using development tools;
-* Get basic understanding of the best practices of modern applications design.
-## Summary I have 9 year experience of working as L2 Support engineer. Technologies I’m working with are SQL, C#, Delphi, 1C. My main responsibilities :
-
-* Supporting of different system;
-* Making some changes in the code of the programs;
-* Implementation of new features in legacy enterprise applications.
-The main reason I’m on this courses is that I want to improve my Web Development skills.
+### **Objective**
+###### *My main expectations and goals:*
+ *Improving of knowledge and get new skills of using development tools;
+ *Get basic understanding of the best practices of modern applications design.
+Summary I have 9 year experience of working as L2 Support engineer. Technologies I’m working with are SQL, C#, Delphi, 1C.
+*My main responsibilities:*
+*Supporting of different system;
+*Making some changes in the code of the programs;
+*Implementation of new features in legacy enterprise applications.
+ The main reason I’m on this courses is that I want to improve my Web Development skills.
 
 ### Skills
 
--*Foreign language*	English (B1)
--*DB*	Informix, Cache, MSSQL, MySQL, Oracle
--*Programming languages*	Delphi, C#, 1C, JavaScript, HTML, CSS, Git Bash
+-*Foreign language*:	English (B1)
+-*DB*:	Informix, Cache, MSSQL, MySQL, Oracle
+-*Programming languages*:	Delphi, C#, 1C, JavaScript, HTML, CSS, Git Bash
 
 As an example, I can give the text of the stored procedure from DB Informix: 
 
-```CREATE PROCEDURE update_supplier(vold_list integer, vnew_list integer)
-
+```
+CREATE PROCEDURE update_supplier(vold_list integer, vnew_list integer)
 returning varchar(250);
 define vorder_id integer;
 define vsvc_id integer;
@@ -62,7 +60,7 @@ end procedure;
 }
 ```
 
-###Education
+### Education
 Higher education
 
 *2005 - 2009*
