@@ -1,0 +1,33 @@
+
+.head-title { font-size: 45px; }
+
+.section-style {
+  margin : 40px 300px 20px 300px;
+  width : 1024px;
+}
+
+.private-information {
+  font-style: italic;
+  font-size: 20px;
+}
+
+.font-h1 { font: bold 50px Comic Sans MS; }
+
+.font-title { font: bold 35px Comic Sans MS; }
+
+.picture-style {
+  float: right; 
+  padding-left: 20px;
+  margin: 28px 40px 50px 10px;
+}
+
+.hr-style {
+  width: 600;
+  color: #9c9a9a;
+ }
+
+.font-text { font: 18px Comic Sans MS; }
+
+.font-code { font: 15px Arial; }
+
+.font-footer { font: bold 17px Comic Sans MS; }
