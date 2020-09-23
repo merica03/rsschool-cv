@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>myResume</title>
+</head>
+<body>
+<section class="section-style">
+<p class="font-h1">
+<img class="rightpic" src="E:\repositories\rsschool-cv\myPhoto.jpg" alt="Мое фото" width="380" height="280">Svetlana Rogaloyva</p>
+<p class="private-information"><img src="phone.png" alt="my phone number" width="15" height="15">+375296386944</p> 
+<p class="private-information"><img src="pngegg.png" alt="my email" width="15" height="15">sv.rogaloyva@gmail.com</p>   
+<p class="section-style">&nbsp;</p>
+<p class="section-style">&nbsp;</p>
+<p class="font-title">Objective</p>  
+<p class="font-text">My main expectations and goals:</p>
+<ul class="font-text">
+<li>Improving of knowledge and get new skills of using development tools;</li>
+<li>Get basic understanding of the best practices of modern applications design.</li>  
+</ul> 
+<hr class="hr-style">
+</section>>
+<section class="section-style">
+<p class="font-title">Summary</p>  
+<p class="font-text">Summary I have 9 year experience of working as L2 Support engineer. Technologies I’m working with are SQL, C#, Delphi, 1C.</p>
+<p class="font-text">My main responsibilities:</p>
+<ul class="font-text">
+<li>Supporting of different system;</li> 
+<li>Making some changes in the code of the programs;</li> 
+<li>Implementation of new features in legacy enterprise applications.</li>
+</ul>   
+<p class="font-text">The main reason I’m on this course is that I want to improve my Web Development skills.</p> 
+<hr class="hr-style"> 
+</section>   
+<section class="section-style">
+<p class="font-title">Skills</p> 
+<table class="font-text">
+<tr>
+<td>Foreign language&nbsp;&nbsp;&nbsp;&nbsp;</td><td>English (B1)</td>
+</tr>  
+<tr> 
+<td>DB&nbsp;&nbsp;&nbsp;&nbsp;</td><td>Informix, Cache, MSSQL, MySQL, Oracle</td>
+</tr> 
+<tr> 
+<td>Programming languages&nbsp;&nbsp;&nbsp;&nbsp;</td><td>Delphi, C#, 1C, JavaScript, HTML, CSS, Git Bash</td>      
+</tr>    
+</table>    
+<p class="font-text">As an example, I can give the text of the stored procedure from DB Informix: </p>
+<code><pre class="font-code">
+    CREATE PROCEDURE update_supplier(vold_list integer, vnew_list integer)
+    returning varchar(250);
+    define vorder_id integer;
+    define vsvc_id integer;
+    define vnewsvc_id integer;
+    define vname varchar(250);
+    
+    foreach cur1 for
+    
+      select x.order_id ,y.svc_id, z.name
+      into vorder_id, vsvc_id, vname 
+      from (prl_order x 
+      join prl_ord_svc y
+      on x.order_id=y.order_id)
+      join prl_svc z
+      on y.svc_id=z.svc_id
+      where x.id_arm=98 and x.order_date >'31.12.2015' and z.pricelist_id=vold_list
+      
+      select svc_id 
+      into vnewsvc_id
+      from prl_svc
+      where pricelist_id=vnew_list and name=vname;
+      
+      update prl_ord_mat
+      set svc_id=vnewsvc_id
+      where order_id=vorder_id and svc_id=vsvc_id;
+    
+      update prl_ord_svc
+      set svc_id=vnewsvc_id
+      where order_id=vorder_id and svc_id=vsvc_id;
+    
+    end foreach;
+     return '' with resume;
+    
+    end procedure;
+    }</pre>
+</code>    
+<hr class="hr-style"> 
+</section>    
+<section class="section-style">
+<p class="font-title">Education</p> 
+<p class="font-footer">Higher education</p>
+<p class="font-footer">2005 - 2009</p>
+<p class="font-text">Belarusian State University of Informatics and Radioelectronics</p>
+<p class="font-text">The Faculty of Computer Systems and Networks</p>
+</section>    
+</body>
+</html>
